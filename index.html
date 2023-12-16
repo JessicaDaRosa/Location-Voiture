@@ -15,23 +15,23 @@
     <!-- header -->
     <header>
         <div class="titre">
-            <h1 class="color_white">Bienvenue à bord</h1>
-            <h3 class="color_white">Location de voiture 24h/24 et 7j/7</h3>
+            <h1 class="h1 text-white" >Bienvenue à bord</h1>
+            <h6 class="h6 text-white " >Location de voiture 24h/24 et 7j/7</h6>
         </div>
         <div class="formulaire">
-            <form>
+            <form class="">
                 <input type="text" name="Adresse" id="" placeholder="Adresse de départ">
-                <input type="date" name="debut" id="" placeholder="Début de location">
-                <input type="date" name="fin" id="" placeholder="Fin de location">
-                <input type="submit" value="Valider ma recherche">
+                <input type="text" name="debut" id="" placeholder="Début de location" onfocus="(this.type='date')">
+                <input type="text"  placeholder="Fin Location" onfocus="(this.type='date')">
+                <input type="button" class="btn btn-success p-3 m-0" value="Valider ma recherche">
             </form>
         </div>
     </header>
     <main>
         <!--vehicule 1-->
-        <div>
+        <div class="car-block">
             <div>
-                <i class="fa-solid fa-caret-left" ></i>
+                <i class="fa-solid fa-caret-left"></i>
                 <img src="./images/images/vehicule1.png" alt="premier vhicule">
                 <i class="fa-solid fa-caret-right"></i>
             </div>
@@ -40,11 +40,11 @@
                     veivule 1
                 </h2>
                 <p>description</p>
-                <a href="">Reserver et payer</a>
+                <a href="" class="btn btn-success">Reserver et payer</a>
             </div>
         </div>
         <!--vehicule 2-->
-        <div>
+        <div class="car-block">
             <div>
                 <i class="fa-solid fa-caret-left"></i>
                 <img src="./images/images/vehicule2.png" alt="premier vhicule">
@@ -55,11 +55,11 @@
                     veivule 2
                 </h2>
                 <p>description</p>
-                <a href="">Reserver et payer</a>
+                <a href="" class="btn btn-success">Reserver et payer</a>
             </div>
         </div>
         <!--vehicule 3-->
-        <div>
+        <div class="car-block">
             <div>
                 <i class="fa-solid fa-caret-left"></i>
                 <img src="./images/images/vehicule3.png" alt="premier vhicule">
@@ -70,11 +70,11 @@
                     veivule 3
                 </h2>
                 <p>description</p>
-                <a href="">Reserver et payer</a>
+                <a href="" class="btn btn-success">Reserver et payer</a>
             </div>
         </div>
         <!--vehicule 4-->
-        <div>
+        <div class="car-block">
             <div>
                 <i class="fa-solid fa-caret-left"></i>
                 <img src="./images/images/vehicule4.png" alt="premier vhicule">
@@ -85,12 +85,12 @@
                     veivule 4
                 </h2>
                 <p>description</p>
-                <a href="">Reserver et payer</a>
+                <a href=" " class="btn btn-success">Reserver et payer</a>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
     </main>
 </body>
 
